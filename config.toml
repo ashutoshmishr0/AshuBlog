@@ -1,0 +1,51 @@
+baseURL = 'https://github.com/ashutoshmishr0/AshuBlog'
+languageCode = 'en-us'
+title = 'Ashutosh Mishra'
+theme = 'gokarna'
+enableEmoji = 'true'
+
+
+[params]
+    avatarURL = "/images/avatar.JPG"
+    description = "My blogging place where I'll provide my knowledge and opinion."
+    avatarSize = "size-xl"
+    socialIcons = [
+      {name = "gitlab", url = "https://gitlab.com/atulyaraj"},
+      {name = "github", url = "https://github.com/atulraj85"},
+      {name = "mastodon", url = "https://mas.to/@atulyaraaj"},
+      {name = "codeberg", url = "https://codeberg.org/atulyaraaj"},
+      {name = "peertube", url = "https://diode.zone/c/the_big_0_community/videos?s=1"}
+    ]
+
+[menu]
+
+    [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+
+    [[menu.main]]
+
+    #unique indentifier
+    identifier = "posts"
+
+    name = "Posts"
+
+    url = "/posts/"
+
+    pre = "<span data-feather='book'></span>"
+
+    weight = 2
+
+
+    [[menu.main]]
+
+    indentifier = "about"
+
+    name = "About me"
+
+    url = "/about/about_me"
+
+
